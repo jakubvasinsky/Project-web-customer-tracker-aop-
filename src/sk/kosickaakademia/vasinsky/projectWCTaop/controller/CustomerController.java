@@ -18,7 +18,7 @@ import sk.kosickaakademia.vasinsky.projectWCTaop.service.CustomerService;
 @RequestMapping("/customer")
 public class CustomerController {
 	
-		//need to inject CustomerService
+
 		@Autowired
 		private CustomerService customerService;
 	

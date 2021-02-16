@@ -17,13 +17,13 @@ public class CRMLoggingAspect {
     private Logger myLogger = Logger.getLogger(getClass().getName());
 
 
-    @Pointcut("execution(* com.luv2code.springdemo.controller.*.*(..))")
+    @Pointcut("execution(* sk.kosickaakademia.vasinsky.projectWCTaop.controller.*.*(..))")
     private  void forControllerPackage() {}
 
-    @Pointcut("execution(* com.luv2code.springdemo.service.*.*(..))")
+    @Pointcut("execution(* sk.kosickaakademia.vasinsky.projectWCTaop.service.*.*(..))")
     private  void forServicePackage() {}
 
-    @Pointcut("execution(* com.luv2code.springdemo.dao.*.*(..))")
+    @Pointcut("execution(* sk.kosickaakademia.vasinsky.projectWCTaop.dao.*.*(..))")
     private  void forDaoPackage() {}
 
     @Pointcut("forControllerPackage() || forServicePackage() || forDaoPackage()")

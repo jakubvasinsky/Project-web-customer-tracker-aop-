@@ -2,7 +2,7 @@
   <artifact type="exploded-ear" name="web-customer-tracker:javaEEApplication exploded">
     <output-path>$PROJECT_DIR$/classes/artifacts/web_customer_tracker_javaEEApplication_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="web-customer-tracker/javaeeApplication/javaEEApplication" />
+      <element id="javaee-facet-resources" facet="web-customer-tracker-aop/javaeeApplication/javaEEApplication" />
     </root>
   </artifact>
 </component>
